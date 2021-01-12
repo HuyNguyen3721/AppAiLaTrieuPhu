@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#EAEA57"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#AC3ACC"
+            android:text="Bạn Sẽ Ra Về Với Số Tiền"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <TextView
+            android:id="@+id/money"
+            android:textColor="#3A6EF3"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="1000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:hint="Tên Người Chơi..."
+            android:id="@+id/edtName"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/save"
+                android:text="Lưu Điểm"
+                android:background="#183A7E"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/exit"
+                android:text="Hủy Bỏ"
+                android:background="#183A7E"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

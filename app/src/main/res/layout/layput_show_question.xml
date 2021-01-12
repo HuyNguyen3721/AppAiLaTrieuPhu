@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="data"
+            type="com.example.appailatrieuphu.Data_question" />
+    </data>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lawpaying">
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/bg_ring"
+        android:gravity="center"
+        android:padding="15dp"
+        android:scaleX="1.5"
+        android:text="30"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_content_question"
+        android:gravity="center"
+        android:minHeight="165dp"
+        android:textColor="#EFE524"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:setText="@{data.question}" />
+
+    <TableRow
+        android:id="@+id/titleQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textQuestion"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="-52dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textTitleQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_title_qestion"
+                android:gravity="center"
+                android:text="Câu 1"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/iconALTP"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignTop="@+id/help"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:alpha="0.2"
+        android:scaleType="fitXY"
+        android:src="@drawable/atp_icon_retry" />
+    <TableRow
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp">
+
+        <ImageButton
+            android:id="@+id/btnTerminate"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/terminate" />
+
+        <ImageButton
+            android:id="@+id/btnRestart"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/restart" />
+
+        <ImageButton
+            android:id="@+id/btnPercent50"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/percent50" />
+
+        <ImageButton
+            android:id="@+id/btnHelp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/hepl" />
+
+        <ImageButton
+            android:id="@+id/btnCall"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/call" />
+
+    </TableRow>
+ <TableRow
+        android:id="@+id/Usehelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/ivUseTerminate"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/x" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/ivUseRestart"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/x" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/ivUsePercent50"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/x" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/ivUseHelp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/x" />
+
+        <ImageButton
+            android:visibility="invisible"
+            android:id="@+id/ivUseCall"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/x" />
+
+    </TableRow>
+
+    <TextView
+        app:setText="@{data.a}"
+        android:id="@+id/textAnsA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_nomal"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        app:setText="@{data.b}"
+        android:id="@+id/textAnsB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAnsA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_nomal"
+        android:gravity="center"
+        android:text="B"
+        android:textColor="@android:color/white"
+         />
+
+    <TextView
+        app:setText="@{data.c}"
+        android:id="@+id/textAnsC"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/textAnsB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_nomal"
+        android:gravity="center"
+        android:text="C"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        app:setText="@{data.d}"
+        android:id="@+id/textAnsD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAnsC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_nomal"
+        android:gravity="center"
+        android:text="D"
+        android:textColor="@android:color/white"
+       />
+</RelativeLayout>
+</layout>

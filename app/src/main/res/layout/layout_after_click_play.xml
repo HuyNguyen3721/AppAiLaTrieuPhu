@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/bg_lawplay"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 15 150,000,000"
+                android:id="@+id/textLevel15"
+                android:gravity="center"
+                android:textColor="#f5dc3b"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 14 85,000,000"
+                android:id="@+id/textLevel14"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 13 60,000,000"
+                android:id="@+id/textLevel13"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 12 40,000,000"
+                android:id="@+id/textLevel12"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 11 30,000,000"
+                android:id="@+id/textLevel11"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 10 22,000,000"
+                android:id="@+id/textLevel10"
+                android:gravity="center"
+                android:textColor="#f5dc3b"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 09 14,000,000"
+                android:id="@+id/textLevel9"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 08 10,000,000"
+                android:id="@+id/textLevel8"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 07 6,000,000"
+                android:id="@+id/textLevel7"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 06 3,000,000"
+                android:id="@+id/textLevel6"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 05 2,000,000"
+                android:id="@+id/textLevel5"
+                android:gravity="center"
+                android:textColor="#f5dc3b"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text=" 04 1,000,000"
+                android:id="@+id/textLevel4"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="03 600,000"
+                android:id="@+id/textLevel3"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="02 400,000"
+                android:id="@+id/textLevel2"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="01 200,000"
+                android:id="@+id/textLevel1"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Tiếp tục"
+            android:id="@+id/btnContinue"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+</layout>

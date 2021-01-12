@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_lawplaying1"/>
+<!--    <item android:drawable="@drawable/inset_circle_anim" android:top="-230dp"/>-->
+</layer-list>

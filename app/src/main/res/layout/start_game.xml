@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_online_blank"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/atp_icon_retry" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/atp__bg_circle_anim" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageButton
+                android:background="@null"
+                android:src="@drawable/state_click_btn1"
+                android:id="@+id/btnPlayNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="26sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:text="Now Play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:background="@null"
+                android:src="@drawable/state_click_btn"
+                android:layout_below="@+id/btnPlayNow"
+                android:id="@+id/btnHighScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="26sp"
+                android:layout_below="@+id/btnPlayNow"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_centerHorizontal="true"
+                android:text="HighScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
